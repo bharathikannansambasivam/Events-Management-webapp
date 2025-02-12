@@ -14,7 +14,7 @@ const Calendar = () => {
       const token = localStorage.getItem("token");
       try {
         const response = await axios.get(
-          "https://bharathikannansambasivam-event.onrender.com/events",
+          "https://events-management-webapp.onrender.com/events",
           {
             headers: { Authorization: `Bearer ${token}` },
           }

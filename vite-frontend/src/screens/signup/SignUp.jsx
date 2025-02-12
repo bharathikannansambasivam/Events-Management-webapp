@@ -14,7 +14,7 @@ function SignUp() {
 
     try {
       const response = await axios.post(
-        "https://bharathikannansambasivam-event.onrender.com/signup",
+        "https://events-management-webapp.onrender.com/signup",
         {
           username,
           email,

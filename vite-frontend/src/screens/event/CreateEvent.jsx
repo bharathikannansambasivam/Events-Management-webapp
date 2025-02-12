@@ -16,7 +16,7 @@ function CreateEvent() {
     const token = localStorage.getItem("token");
     try {
       const response = await axios.post(
-        "https://bharathikannansambasivam-event.onrender.com/events",
+        "https://events-management-webapp.onrender.com/events",
         { title, date, time },
         { headers: { Authorization: `Bearer ${token}` } }
       );
